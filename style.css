@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(77, 74, 74);
+  overflow: hidden;
+}
+
+.container {
+  padding-top: 10%;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyes {
+  height: 500px;
+  width: 500px;
+  /* border: 2px solid blue; */
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.selectedLv {
+  height: 140px;
+  width: 140px;
+  background-repeat: no-repeat;
+  color: wheat;
+  transform: translateZ(60px);
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+#eye1 {
+  background-image: url('./images/a2.png');
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 110px;
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  left: 172px;
+  transform: translateZ(20px);
+}
+
+#eye3 {
+  background-image: url('./images/a1.png');
+  height: 110px;
+  width: 110px;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 163px;
+  left: 388px;
+  transform: translateZ(20px);
+}
+
+#eye5 {
+  background-image: url('./images/a3.png');
+  height: 110px;
+  width: 110px;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 320px;
+  left: 185px;
+  transform: translateZ(20px);
+}
+
+#eye7 {
+  background-image: url('./images/a4.png');
+  height: 110px;
+  width: 110px;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 163px;
+  left: -37px;
+  transform: translateZ(20px);
+}
+#eire-map {
+  position: absolute;
+
+  z-index: -10;
+  background-image: url('./images/e.png');
+  /* border: 2px solid salmon; */
+  height: 500px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.button-ring {
+  position: relative;
+  z-index: 50;
+  height: 500px;
+  width: 500px;
+  /* border: 2px solid blue; */
+}
+#text-output {
+  position: absolute;
+  pointer-events: none;
+
+  /* background-color: rgba(10, 10, 10, 0.2); */
+  display: flex;
+  /* border: 1px solid goldenrod; */
+
+  height: 200px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+.levelDescription {
+  color: rgb(184, 168, 168);
+  margin: 5px;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Helvetica', cursive;
+}
+
+.county {
+}
+.connachta {
+  display: none;
+  height: 110px;
+  width: 110px;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  position: absolute;
+
+  transform: translateZ(20px);
+}
+#galway {
+  top: 0px;
+  left: 172px;
+  background-image: url('images/emblems/galway.png');
+}
+#leitrim {
+  top: 94px;
+  left: -40px;
+  background-image: url('images/emblems/leitrim.png');
+}
+#mayo {
+  top: 259px;
+  left: 56px;
+  background-image: url('images/emblems/mayo.png');
+}
+#roscommon {
+  top: 312px;
+  left: 271px;
+  background-image: url('images/emblems/roscommon.png');
+}
+#sligo {
+  top: 94px;
+  left: 388px;
+  background-image: url('images/emblems/sligo.png');
+}
