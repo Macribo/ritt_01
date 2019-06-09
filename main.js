@@ -108,6 +108,24 @@ $('#eye5').click(function() {
   }, 1000);
 });
 
+//LEINSTER click handler
+
+$('#eye3').click(function() {
+  provinceSelected();
+  $('.levelDescription').text('An Laighean');
+
+  setTimeout(function() {
+    $('#eire-map').css('background-image', "url('./images/maps/l2.png')");
+
+    $('#eire-map').fadeIn('slow');
+    setTimeout(function() {
+      $('.laighean').fadeIn();
+    }, 1000);
+    // alert('co');
+    //show Galway Leitrim Mayo Roscommon Sligo
+  }, 1000);
+});
+
 //CONNAUGHT hover:
 $('#antrim').hover(function() {
   $('.levelDescription').text(`Co. Aontroma`);

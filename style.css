@@ -103,8 +103,8 @@ body {
   z-index: -1;
   background-image: url('./images/drawn-circle-vector-9.gif');
   /* border: 2px solid salmon; */
-  height: 500px;
-  width: 400px;
+  height: 800px;
+  width: 700px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -204,7 +204,8 @@ body {
 
 .connachta,
 .uladh,
-.mumhain {
+.mumhain,
+.laighean {
   display: none;
   height: 110px;
   width: 110px;
@@ -272,7 +273,68 @@ body {
 }
 
 #waterford {
-  top: 169px;
+  top: 109px;
   left: 388px;
   background-image: url('images/emblems/waterford.png');
+}
+
+#carlow {
+  top: 373px;
+  left: 301px;
+  background-image: url('images/emblems/carlow.png');
+}
+#dublin {
+  top: 72px;
+  left: 404px;
+  background-image: url('images/emblems/dublin.png');
+}
+#kildare {
+  top: 373px;
+  left: 192px;
+  background-image: url('images/emblems/kildare.png');
+}
+#kilkenny {
+  top: 373px;
+  left: 80px;
+  background-image: url('images/emblems/kilkenny.png');
+}
+#laois {
+  top: 305px;
+  left: -21px;
+  background-image: url('images/emblems/laois.png');
+}
+#longford {
+  top: -15px;
+  left: 80px;
+  background-image: url('images/emblems/longford.png');
+}
+#louth {
+  top: -15px;
+  left: 303px;
+  background-image: url('images/emblems/louth.png');
+}
+#meath {
+  top: -60px;
+  left: 191px;
+  background-image: url('images/emblems/meath.png');
+}
+#offaly {
+  top: 182px;
+  left: -63px;
+  background-image: url('images/emblems/offaly.png');
+}
+#westmeath {
+  top: 72px;
+  left: -22px;
+  background-image: url('images/emblems/westmeath.png');
+}
+#wexford {
+  top: 305px;
+  left: 401px;
+  background-image: url('images/emblems/wexford.png');
+}
+#wicklow {
+  top: 185px;
+  left: 450px;
+  background-image: url('images/emblems/wicklow.png');
 }
