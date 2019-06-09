@@ -96,6 +96,17 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+#circle {
+  position: absolute;
+
+  z-index: -1;
+  background-image: url('./images/drawn-circle-vector-9.gif');
+  /* border: 2px solid salmon; */
+  height: 500px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .button-ring {
   position: relative;
   z-index: 50;
@@ -126,7 +137,57 @@ body {
 
 .county {
 }
-.connachta {
+
+#antrim {
+  top: -11px;
+  left: 277px;
+  background-image: url('images/emblems/antrim.png');
+}
+
+#armagh {
+  top: 134px;
+  left: 376px;
+  background-image: url('images/emblems/armagh.png');
+}
+
+#cavan {
+  top: 360px;
+  left: 200px;
+  background-image: url('images/emblems/cavan.png');
+}
+
+#derry {
+  top: -11px;
+  left: 102px;
+  background-image: url('images/emblems/derry.png');
+}
+
+#donegal {
+  top: 134px;
+  left: -6px;
+  background-image: url('images/emblems/donegal.png');
+}
+
+#down {
+  top: 768px;
+  left: 356px;
+  background-image: url('images/emblems/down.png');
+}
+
+#fermanagh {
+  top: 286px;
+  left: 9px;
+  background-image: url('images/emblems/fermanagh.png');
+}
+
+#monaghan {
+  top: 286px;
+  left: 360px;
+  background-image: url('images/emblems/monaghan.png');
+}
+
+.connachta,
+.uladh {
   display: none;
   height: 110px;
   width: 110px;

@@ -50,13 +50,91 @@ $(document).ready(function() {
   }
 });
 
-//CONNAUGHT click handler
-$('#eye7').click(function() {
+//province selected
+function provinceSelected() {
   $('#eye7').fadeOut('slow');
   $('#eye3').fadeOut('slow');
   $('#eye1').fadeOut('slow');
   $('#eye5').fadeOut('slow');
   $('#eire-map').fadeOut('slow');
+
+  setTimeout(function() {
+    $('#eye7').fadeOut('slow');
+    $('#eye3').fadeOut('slow');
+    $('#eye1').fadeOut('slow');
+    $('#eye5').fadeOut('slow');
+    $('#eire-map').fadeOut('slow');
+
+    $('#eire-map').css('height', '700px');
+    $('#eire-map').css('width', '600px');
+  }, 1000);
+  //   alert('province selected');
+}
+//ULSTER click handler
+
+$('#eye1').click(function() {
+  provinceSelected();
+  $('.levelDescription').text('Uladh');
+
+  setTimeout(function() {
+    $('#eire-map').css('background-image', "url('./images/maps/u2.png')");
+
+    $('#eire-map').fadeIn('slow');
+    setTimeout(function() {
+      $('.uladh').fadeIn();
+    }, 1000);
+    // alert('co');
+    //show Galway Leitrim Mayo Roscommon Sligo
+  }, 1000);
+});
+
+//CONNAUGHT hover:
+$('#antrim').hover(function() {
+  $('.levelDescription').text(`Co. Aontroma`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Antr.png')");
+});
+
+$('#armagh').hover(function() {
+  $('.levelDescription').text(`Co. Ard Ṁaċa`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Arma.png')");
+});
+$('#cavan').hover(function() {
+  $('.levelDescription').text(`Co. An Caḃáin`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Cava.png')");
+});
+$('#derry').hover(function() {
+  $('.levelDescription').text(`Co. Ḋoire`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Derr.png')");
+});
+
+$('#donegal').hover(function() {
+  $('.levelDescription').text(`Co. Ḋún na nGall`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Done.png')");
+});
+
+$('#down').hover(function() {
+  $('.levelDescription').text(`Co. An Dúin`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Down.png')");
+});
+
+$('#fermanagh').hover(function() {
+  $('.levelDescription').text(`Co. Ḟear Manaċ`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Ferm.png')");
+});
+
+$('#tyrone').hover(function() {
+  $('.levelDescription').text(`Co. Ṫír Eoghain`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Tyro.png')");
+});
+
+$('#monaghan').hover(function() {
+  $('.levelDescription').text(`Co. Ṁuineaċáin`);
+  $('#eire-map').css('background-image', "url('./images/maps/u2Mona.png')");
+});
+
+//CONNAUGHT click handler
+$('#eye7').click(function() {
+  provinceSelected();
   $('.levelDescription').text('Connachta');
 
   setTimeout(function() {
