@@ -126,6 +126,65 @@ $('#eye3').click(function() {
   }, 1000);
 });
 
+//LEINSTER hover:
+$('#carlow').hover(function() {
+  $('.levelDescription').text(`Co. Ċeaṫarlaċ`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Carl.png')");
+});
+
+$('#dublin').hover(function() {
+  $('.levelDescription').text(`Co. Ḃaile Átha Ċliath`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Dubl.png')");
+});
+$('#kildare').hover(function() {
+  $('.levelDescription').text(`Co. Ċill Dara`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Kild.png')");
+});
+$('#kilkenny').hover(function() {
+  $('.levelDescription').text(`Co. Ċill Ċainniġ`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Kilk.png')");
+});
+
+$('#laois').hover(function() {
+  $('.levelDescription').text(`Co. Laoise`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Laoi.png')");
+});
+
+$('#longford').hover(function() {
+  $('.levelDescription').text(`Co. An LongFoirt`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Long.png')");
+});
+
+$('#louth').hover(function() {
+  $('.levelDescription').text(`Co.Lú`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Lout.png')");
+});
+
+$('#meath').hover(function() {
+  $('.levelDescription').text(`Co. Na Mí`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Meat.png')");
+});
+
+$('#offaly').hover(function() {
+  $('.levelDescription').text(`Co. Uíḃ Ḟailí`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Offa.png')");
+});
+
+$('#westmeath').hover(function() {
+  $('.levelDescription').text(`Co. Na hIarṁí`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2West.png')");
+});
+
+$('#wexford').hover(function() {
+  $('.levelDescription').text(`Co. Loch Garman`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Wexf.png')");
+});
+
+$('#wicklow').hover(function() {
+  $('.levelDescription').text(`Co. Ċill Ṁantáin`);
+  $('#eire-map').css('background-image', "url('./images/maps/l2Wick.png')");
+});
+
 //CONNAUGHT hover:
 $('#antrim').hover(function() {
   $('.levelDescription').text(`Co. Aontroma`);
@@ -239,7 +298,7 @@ $('#limerick').hover(function() {
 });
 
 $('#waterford').hover(function() {
-  $('.levelDescription').text(`Co. Loch Garman`);
+  $('.levelDescription').text(`Co. Ṗort Láirge`);
   $('#eire-map').css('background-image', "url('./images/maps/m2Wate.png')");
 });
 
