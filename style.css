@@ -98,6 +98,7 @@ body {
 }
 #circle {
   position: absolute;
+  opacity: 0.5;
 
   z-index: -1;
   background-image: url('./images/drawn-circle-vector-9.gif');
@@ -139,51 +140,57 @@ body {
 }
 
 #antrim {
-  top: -11px;
-  left: 277px;
+  top: 7px;
+  left: 351px;
   background-image: url('images/emblems/antrim.png');
 }
 
 #armagh {
-  top: 134px;
-  left: 376px;
+  top: 288px;
+  left: 366px;
   background-image: url('images/emblems/armagh.png');
 }
 
 #cavan {
-  top: 360px;
-  left: 200px;
+  top: 388px;
+  left: 122px;
   background-image: url('images/emblems/cavan.png');
 }
 
 #derry {
-  top: -11px;
-  left: 102px;
+  top: -22px;
+  left: 182px;
   background-image: url('images/emblems/derry.png');
 }
 
 #donegal {
-  top: 134px;
-  left: -6px;
+  top: 170px;
+  left: -27px;
   background-image: url('images/emblems/donegal.png');
 }
 
 #down {
-  top: 768px;
-  left: 356px;
+  top: 170px;
+  left: 404px;
   background-image: url('images/emblems/down.png');
 }
 
 #fermanagh {
-  top: 286px;
-  left: 9px;
+  top: 308px;
+  left: -10px;
   background-image: url('images/emblems/fermanagh.png');
 }
 
 #monaghan {
-  top: 286px;
-  left: 360px;
+  top: 408px;
+  left: 258px;
   background-image: url('images/emblems/monaghan.png');
+}
+
+#tyrone {
+  top: 27px;
+  left: 32px;
+  background-image: url('images/emblems/tyrone.png');
 }
 
 .connachta,
