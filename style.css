@@ -119,9 +119,9 @@ body {
   position: absolute;
   pointer-events: none;
 
-  /* background-color: rgba(10, 10, 10, 0.2); */
+  background-color: rgba(10, 10, 10, 0.2);
   display: flex;
-  /* border: 1px solid goldenrod; */
+  border: 1px solid goldenrod;
 
   height: 200px;
   width: 600px;
@@ -194,7 +194,8 @@ body {
 }
 
 .connachta,
-.uladh {
+.uladh,
+.mumhain {
   display: none;
   height: 110px;
   width: 110px;
@@ -229,4 +230,40 @@ body {
   top: 94px;
   left: 388px;
   background-image: url('images/emblems/sligo.png');
+}
+
+#clare {
+  top: 15px;
+  left: 71px;
+  background-image: url('images/emblems/clare.png');
+}
+
+#cork {
+  top: 309px;
+  left: 71px;
+  background-image: url('images/emblems/cork.png');
+}
+
+#kerry {
+  top: 169px;
+  left: -11px;
+  background-image: url('images/emblems/kerry.png');
+}
+
+#limerick {
+  top: 295px;
+  left: 345px;
+  background-image: url('images/emblems/limerick.png');
+}
+
+#tipperary {
+  top: 15px;
+  left: 317px;
+  background-image: url('images/emblems/tipperary.png');
+}
+
+#waterford {
+  top: 169px;
+  left: 388px;
+  background-image: url('images/emblems/waterford.png');
 }
