@@ -123,8 +123,8 @@ body {
   display: flex;
   border: 1px solid goldenrod;
 
-  height: 200px;
-  width: 600px;
+  height: 100px;
+  width: 500px;
   align-items: center;
   justify-content: center;
 }
@@ -134,6 +134,15 @@ body {
   text-align: center;
   font-size: 3em;
   font-family: 'Helvetica', cursive;
+
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#back-to-main-menu {
+  display: none;
+}
+#back-to-main-menu:hover {
+  color: gainsboro;
 }
 
 .county {
