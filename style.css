@@ -140,6 +140,8 @@ body {
 }
 #back-to-main-menu {
   display: none;
+  position: absolute;
+  z-index: 50;
 }
 #back-to-main-menu:hover {
   color: gainsboro;

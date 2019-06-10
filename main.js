@@ -50,7 +50,26 @@ $(document).ready(function() {
     console.log('wink');
   }
 });
+//back-to-main-menu-button
 
+$('#back-to-main-menu').click(function() {
+  $('.county').fadeOut('slow');
+  $('#eire-map').fadeOut('slow');
+  $('.levelDescription').text('');
+
+  setTimeout(function() {
+    $('#eire-map').css('height', '500px');
+    $('#eire-map').css('width', '400px');
+    $('#eye7').fadeIn('slow');
+    $('#eye3').fadeIn('slow');
+    $('#eye1').fadeIn('slow');
+    $('#eye5').fadeIn('slow');
+    $('#eire-map').fadeIn('slow');
+    $('#back-to-main-menu').fadeOut();
+    $('#eire-map').css('background-image', "url('./images/e.png')");
+  }, 1000);
+  //clear player object
+});
 //province selected
 function provinceSelected() {
   $('#eye7').fadeOut('slow');

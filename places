@@ -3,12 +3,17 @@ Romantic Ireland
 
 Lies in a silent valley
 
-The Minister has prepared a statement for the mission voluntier.
+The Minister has prepared a statement for the mission volly.
 
 Tchanss
 
-Nach eiróidh linn.
-Pointe onóir é ár seacht ndícheal a deanamh.  Don domhain mar atá. Don todhchaí.
+Nach eiróidh linn;
+tchanss 'nar dul amú.
+Pointe onóir é 
+ár seacht ndícheal;
+tchanss onóir é
+tchanss gur fiú.
+
 
 //Slí na Draoithe:
 
@@ -20,7 +25,7 @@ Bímís gníomhach.
 console.log('mise an chleite nua');
 
 <h2>
-Fadó fadó in 3ireann, roimh dereidh an Nua aois...
+Fadó fadó in 3ireann, roimh teacht an Nua aois...
 </h2>
 
 let laoch={
