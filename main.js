@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     $('#eire-map').css('background-image', 'url("./images/u.png")');
 
-    $('.levelDescription').text(`Ulaidh`);
+    $('.levelDescription').text(`Uladh`);
   });
 
   //LEINSTER
@@ -321,13 +321,19 @@ $('#waterford').hover(function() {
   $('#eire-map').css('background-image', "url('./images/maps/m2Wate.png')");
 });
 
-let eye1 = document.getElementById('eye1');
-let eye2 = document.getElementById('eye2');
-let eye3 = document.getElementById('eye3');
-let eye4 = document.getElementById('eye4');
-let eye5 = document.getElementById('eye5');
-let eye6 = document.getElementById('eye6');
-let eye7 = document.getElementById('eye7');
-let eye8 = document.getElementById('eye8');
+$('.county').mouseenter(function() {
+  //   alert('enter')
+  //   console.log(this.id);
+  let myEmblem = this.id;
+  let myEmblemImg = "url('./images/emblems/" + myEmblem + '.png';
+  //   $('.county').css('filter', 'grayscale(100%)');
+  $('.county').css(
+    'background-image',
+    "url('./images/emblems/nullEmblem.png')"
+  );
+  $('#' + myEmblem).css('background-image', myEmblemImg);
+});
 
-let eyeArr = [eye1, eye2, eye3, eye4, eye5, eye6, eye7, eye8];
+$('.county').mouseleave(function() {
+  //   alert('leave');
+});
