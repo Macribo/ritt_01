@@ -1,6 +1,15 @@
 $(document).ready(function() {
+  $('.county').tilt({
+    scale: 1.1,
+    maxTilt: '7',
+    perspective: 400,
+    speed: 3000
+  });
   $('.eyes').tilt({
-    scale: 1.2
+    scale: 1.1,
+    maxTilt: '7',
+    perspective: 400,
+    speed: 3000
   });
 
   //HOVER ON PROVINCES:
@@ -64,9 +73,9 @@ $('#back-to-main-menu').click(function() {
     $('#eye3').fadeIn('slow');
     $('#eye1').fadeIn('slow');
     $('#eye5').fadeIn('slow');
-    $('#eire-map').fadeIn('slow');
     $('#back-to-main-menu').fadeOut();
     $('#eire-map').css('background-image', "url('./images/e.png')");
+    $('#eire-map').fadeIn('slow');
   }, 1000);
   //clear player object
 });

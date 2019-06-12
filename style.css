@@ -2,7 +2,10 @@ body {
   background-color: rgb(77, 74, 74);
   overflow: hidden;
 }
-
+@font-face {
+  font-family: aonchlo;
+  src: url('./fonts/aonchlo.ttf');
+}
 .container {
   padding-top: 10%;
   /* border: 3px solid red; */
@@ -87,7 +90,7 @@ body {
 }
 #eire-map {
   position: absolute;
-
+  transition: all 0.5s ease-out;
   z-index: -10;
   background-image: url('./images/e.png');
   /* border: 2px solid salmon; */
@@ -132,8 +135,8 @@ body {
   color: rgb(184, 168, 168);
   margin: 5px;
   text-align: center;
-  font-size: 3em;
-  font-family: 'Helvetica', cursive;
+  font-size: 4em;
+  font-family: aonchlo;
 
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
