@@ -1,0 +1,26 @@
+#bg-land,
+#bg-sea,
+#county-map {
+  border: 2px solid blue;
+  position: absolute;
+  transition: all 0.5s ease-out;
+
+  /* border: 2px solid salmon; */
+  margin-top: 20%;
+  height: 409px;
+  width: 523px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#bg-land {
+  z-index: -10;
+  background-image: url('./images/maps/coMaps/bgLand.png');
+}
+#bg-sea {
+  z-index: 10;
+  background-image: url('./images/maps/coMaps/bgSea.png');
+}
+#county-map {
+  z-index: 20;
+  background-image: url('./images/maps/coMaps/antrim.png');
+}
