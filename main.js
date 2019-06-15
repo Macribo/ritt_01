@@ -352,6 +352,10 @@ $('.county').click(function() {
   Cookies.set('playerCounty', myEmblem);
   console.log('hi from cookie script');
 
-  //    leave();
+  leave();
   //   alert('test');
 });
+
+function leave() {
+  location.href = 'file:///home/devugees/Desktop/ritt_01/locations.html';
+}

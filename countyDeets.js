@@ -1,22 +1,3 @@
-$(document).ready(function() {
-  // chosenCounty = this.id;
-  console.log('hi' + Cookies.get('playerCounty'));
-  var myCookie = Cookies.get('playerCounty');
-  if (myCookie != '') {
-    let chosenCountyImg = "url('./images/maps/coMaps/" + myCookie + '.png';
-    $('#county-map').css('border', '5px solid red');
-    $('#county-map').css('background-image', chosenCountyImg);
-  } else {
-    console.log('still no cookie');
-  }
-
-  for (var key in countyDetails) {
-    if (key == myCookie) {
-      console.log(key + '->' + countyDetails[key]);
-      $('#location-description').html(countyDetails[key]);
-    }
-  }
-});
 let countyDetails = {
   antrim: [`Co. Aontroma`],
   armagh: [`Co. Ard Ṁaċa`],
