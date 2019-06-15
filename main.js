@@ -329,11 +329,11 @@ $('#waterford').hover(function() {
   $('.levelDescription').text(`Co. Ṗort Láirge`);
   $('#eire-map').css('background-image', "url('./images/maps/m2Wate.png')");
 });
-
+let myEmblem;
 $('.county').mouseenter(function() {
   //   alert('enter')
   //   console.log(this.id);
-  let myEmblem = this.id;
+  myEmblem = this.id;
   let myEmblemImg = "url('./images/emblems/" + myEmblem + '.png';
   //   $('.county').css('filter', 'grayscale(100%)');
   $('.county').css(
@@ -345,4 +345,13 @@ $('.county').mouseenter(function() {
 
 $('.county').mouseleave(function() {
   //   alert('leave');
+});
+
+$('.county').click(function() {
+  // chosenCounty = this.id;
+  Cookies.set('playerCounty', myEmblem);
+  console.log('hi from cookie script');
+
+  //    leave();
+  //   alert('test');
 });
