@@ -10,11 +10,89 @@ $(document).ready(function() {
     console.log('still no cookie');
   }
 
+  $('#back-to-counties').click(function() {
+    location.href = 'file:///home/devugees/Desktop/ritt_01/index.html';
+  });
+
+  setTimeout(function() {
+    $('#map-pins').css('opacity', 1);
+  }, 500);
+  //add location pins to county map
   for (var key in countyDetails) {
     if (key == myCookie) {
-      //add location pins to county map
+      $('#first-map-pin').css('left', countyDetails[key][2][0]);
+      $('#first-map-pin').css('top', countyDetails[key][3][0]);
+      $('#second-map-pin').css('left', countyDetails[key][2][1]);
+      $('#second-map-pin').css('top', countyDetails[key][3][1]);
+      $('#third-map-pin').css('left', countyDetails[key][2][2]);
+      $('#third-map-pin').css('top', countyDetails[key][3][2]);
+      $('#fourth-map-pin').css('left', countyDetails[key][2][3]);
+      $('#fourth-map-pin').css('top', countyDetails[key][3][3]);
+      $('#fifth-map-pin').css('left', countyDetails[key][2][4]);
+      $('#fifth-map-pin').css('top', countyDetails[key][3][4]);
+      $('#sixth-map-pin').css('left', countyDetails[key][2][5]);
+      $('#sixth-map-pin').css('top', countyDetails[key][3][5]);
+    }
+  }
 
-      console.log(key + '->' + countyDetails[key][0]);
+  $('#first-map-pin').mouseenter(function() {
+    for (var key in countyDetails) {
+      if (key == myCookie) {
+        $('#location-description').html(countyDetails[key][1][0]);
+      }
+    }
+  });
+
+  $('#second-map-pin').mouseenter(function() {
+    for (var key in countyDetails) {
+      if (key == myCookie) {
+        $('#location-description').html(countyDetails[key][1][1]);
+      }
+    }
+  });
+
+  $('#third-map-pin').mouseenter(function() {
+    for (var key in countyDetails) {
+      if (key == myCookie) {
+        $('#location-description').html(countyDetails[key][1][2]);
+      }
+    }
+  });
+
+  $('#fourth-map-pin').mouseenter(function() {
+    for (var key in countyDetails) {
+      if (key == myCookie) {
+        $('#location-description').html(countyDetails[key][1][3]);
+      }
+    }
+  });
+
+  $('#fifth-map-pin').mouseenter(function() {
+    for (var key in countyDetails) {
+      if (key == myCookie) {
+        $('#location-description').html(countyDetails[key][1][4]);
+      }
+    }
+  });
+
+  $('#sixth-map-pin').mouseenter(function() {
+    for (var key in countyDetails) {
+      if (key == myCookie) {
+        $('#location-description').html(countyDetails[key][1][5]);
+      }
+    }
+  });
+
+  $('.map-pin').mouseleave(function() {
+    for (var key in countyDetails) {
+      if (key == myCookie) {
+        $('#location-description').html(countyDetails[key][0]);
+      }
+    }
+  });
+  for (var key in countyDetails) {
+    if (key == myCookie) {
+      //   console.log(key + '->' + countyDetails[key][0]);
       $('#location-description').html(countyDetails[key][0]);
       console.log(
         'Cá háit go dírach i ' +
@@ -40,7 +118,9 @@ let countyDetails = {
       `Carn Ṁéaḃla`,
       `Dearḃóg`
     ],
+    //left
     [314, 353, 234, 237, 275, 218],
+    //top
     [353, 273, 5, 201, 299, 47]
   ],
   armagh: [
@@ -52,7 +132,10 @@ let countyDetails = {
       `Baile Úr`,
       `Lios Liath`,
       `Craigavon`
-    ]
+    ], //left
+    [313, 233, 243, 217, 308, 291],
+    //top
+    [9, 14, 166, 290, 333, 25]
   ],
   carlow: [
     `Co. Ċeaṫarlaċ`,
@@ -63,7 +146,10 @@ let countyDetails = {
       `Cill Deirge`,
       `Baile Uí Ṁurċú`,
       `Cill Daṁáin`
-    ]
+    ], //left
+    [274, 198, 342, 225, 328, 330],
+    //top
+    [172, 215, 200, 64, 21, 250]
   ],
   cavan: [
     `Co. An Caḃáin`,
@@ -74,7 +160,10 @@ let countyDetails = {
       `Doire na Criaḋ`,
       `An Dromainn`,
       `An Cnoc Rua`
-    ]
+    ], //left
+    [463, 428, 340, 138, 380, 278],
+    //top
+    [275, 340, 149, 58, 300, 108]
   ],
   clare: [
     `Co. An Ċláir`,
@@ -85,7 +174,10 @@ let countyDetails = {
       `An Tulach`,
       `Cill Rois`,
       `Bun Raite`
-    ]
+    ], //left
+    [159, 125, 163, 344, 110, 321],
+    //top
+    [195, 21, 341, 193, 371, 270]
   ],
   cork: [
     `Co. Ċorcaí `,
@@ -382,6 +474,10 @@ let countyDetails = {
       `Dún Ard`,
       `Siol Éalaiġ`,
       `Aḃóca`
-    ]
+    ],
+    //left
+    [359, 374, 216, 155, 164, 360],
+    //top
+    [293, 70, 69, 185, 125, 293]
   ]
 };

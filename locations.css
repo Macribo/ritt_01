@@ -14,6 +14,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#back-to-counties {
+  position: absolute;
+  z-index: 50;
+}
+#back-to-counties:hover {
+  color: gainsboro;
+}
 #bg-land {
   z-index: -10;
   background-image: url('./images/maps/coMaps/bgLand.png');
@@ -74,6 +82,8 @@
   display: block;
   top: -25px;
   left: -25px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 #first-map-pin {
   top: 350px;
