@@ -2,12 +2,13 @@
 #bg-sea,
 #county-map {
   /* border: 2px solid blue; */
+
   position: absolute;
   transition: all 0.5s ease-out;
   border: 1px solid goldenrod;
 
   /* border: 2px solid salmon; */
-  margin-top: 20%;
+  /* margin-top: 20%; */
   height: 409px;
   width: 523px;
   background-repeat: no-repeat;
@@ -17,6 +18,10 @@
   z-index: -10;
   background-image: url('./images/maps/coMaps/bgLand.png');
 }
+.container {
+  position: relative;
+  top: 100px;
+}
 #bg-sea {
   z-index: 10;
   opacity: 0.7;
@@ -25,6 +30,7 @@
 #county-map {
   z-index: 20;
   background-image: url('./images/maps/coMaps/antrim.png');
+  border: 3px solid green;
 }
 
 #location-description {
@@ -51,4 +57,14 @@
   width: 80%;
   align-items: center;
   justify-content: center;
+}
+
+.map-pin {
+  z-index: 500;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background-image: url('./images/maps/coMaps/pin.png');
 }
