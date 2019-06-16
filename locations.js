@@ -12,6 +12,8 @@ $(document).ready(function() {
 
   for (var key in countyDetails) {
     if (key == myCookie) {
+      //add location pins to county map
+
       console.log(key + '->' + countyDetails[key][0]);
       $('#location-description').html(countyDetails[key][0]);
       console.log(
@@ -37,7 +39,9 @@ let countyDetails = {
       `Aċaḋ Eoċaille`,
       `Carn Ṁéaḃla`,
       `Dearḃóg`
-    ]
+    ],
+    [314, 353, 234, 237, 275, 218],
+    [353, 273, 5, 201, 299, 47]
   ],
   armagh: [
     `Co. Ard Ṁaċa`,

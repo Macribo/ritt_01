@@ -12,7 +12,7 @@
   height: 409px;
   width: 523px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #bg-land {
   z-index: -10;
@@ -28,9 +28,10 @@
   background-image: url('./images/maps/coMaps/bgSea.png');
 }
 #county-map {
+  position: absolute;
   z-index: 20;
   background-image: url('./images/maps/coMaps/antrim.png');
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 
 #location-description {
@@ -60,8 +61,8 @@
 }
 
 .map-pin {
-  z-index: 500;
-  position: relative;
+  position: absolute;
+  /* z-index: 500; */
 
   height: 50px;
   width: 50px;
@@ -70,34 +71,42 @@
 
 #map-pins {
   position: relative;
-  top: -120px;
+  display: block;
+  top: -25px;
+  left: -25px;
 }
 #first-map-pin {
-  top: 314px;
-  left: 353px;
+  top: 350px;
+  left: 303px;
+  z-index: 500;
 }
 
 #second-map-pin {
-  left: 353px;
-  top: 273px;
+  /* left: 353px; */
+  /* top: 273px; */
+  z-index: 501;
 }
 
 #third-map-pin {
-  left: 234px;
-  top: 5px;
+  /* left: 234px; */
+  /* top: 5px; */
+  z-index: 502;
 }
 
 #fourth-map-pin {
-  left: 275px;
-  top: 299px;
+  /* left: 275px; */
+  /* top: 299px; */
+  z-index: 503;
 }
 
 #fifth-map-pin {
-  left: 237px;
-  top: 201px;
+  /* left: 237px; */
+  /* top: 201px; */
+  z-index: 504;
 }
 
 #sixth-map-pin {
-  left: 218px;
-  top: 47px;
+  left: 0px;
+  top: 0px;
+  z-index: 505;
 }
