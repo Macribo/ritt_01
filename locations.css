@@ -62,9 +62,42 @@
 .map-pin {
   z-index: 500;
   position: relative;
-  top: 0;
-  left: 0;
+
   height: 50px;
   width: 50px;
   background-image: url('./images/maps/coMaps/pin.png');
+}
+
+#map-pins {
+  position: relative;
+  top: -120px;
+}
+#first-map-pin {
+  top: 314px;
+  left: 353px;
+}
+
+#second-map-pin {
+  left: 353px;
+  top: 273px;
+}
+
+#third-map-pin {
+  left: 234px;
+  top: 5px;
+}
+
+#fourth-map-pin {
+  left: 275px;
+  top: 299px;
+}
+
+#fifth-map-pin {
+  left: 237px;
+  top: 201px;
+}
+
+#sixth-map-pin {
+  left: 218px;
+  top: 47px;
 }
