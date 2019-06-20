@@ -188,7 +188,10 @@ let countyDetails = {
       `An Sciobairín`,
       `Gleann an Ṗreaċáin`,
       `Beal na mḂláth`
-    ]
+    ], //left
+    [405, 346, 378, 191, 404, 362],
+    //top
+    [153, 90, 286, 345, 156, 246]
   ],
   derry: [
     `Co. Ḋoire`,
@@ -198,8 +201,11 @@ let countyDetails = {
       `An Seanṁullach`,
       `Droichead Fíolta`,
       `Muine Mór`,
-      `Droichead Fíolta`
-    ]
+      `Doire`
+    ], //left
+    [234, 370, 411, 267, 389, 80],
+    //top
+    [112, 294, 247, 155, 368, 139]
   ],
   donegal: [
     `Co. Ḋún na nGall`,
@@ -210,7 +216,10 @@ let countyDetails = {
       `Leitir Ceanainn`,
       `Cionn Dhún Damh`,
       `Bun na hAḃann`
-    ]
+    ], //left
+    [214, 189, 270, 305, 382, 234],
+    //top
+    [127, 268, 247, 191, 18, 81]
   ],
   down: [
     `Co. An Dúin`,
@@ -221,7 +230,10 @@ let countyDetails = {
       `Cill Ċaoil`,
       `Lios na gCearrḃach`,
       `An Lorgain`
-    ]
+    ],
+    [281, 412, 393, 222, 230, 123],
+    //top
+    [103, 117, 242, 401, 114, 177]
   ],
   dublin: [
     `Co. Ḃaile Átha Ċliath`,
@@ -232,7 +244,10 @@ let countyDetails = {
       `Cluain Tarbh`,
       `Dún Laoiġaire`,
       `Fionnġlas`
-    ]
+    ],
+    [303, 303, 240, 281, 271, 254],
+    //top
+    [319, 250, 256, 254, 297, 190]
   ],
   fermanagh: [
     `Co. Ḟear Manaċ`,
@@ -243,29 +258,38 @@ let countyDetails = {
       `Lios na Daróg`,
       `Eadarnaiḋ`,
       `Paiteagó`
-    ]
+    ],
+    [273, 132, 19, 257, 258, 148],
+    //top
+    [213, 196, 84, 106, 20, 35]
   ],
   galway: [
     `Co. na Gailliṁe`,
     [
-      `Tuaim`,
+      `Cill Cais`,
       `An Spidéal `,
       `An Ċeaṫrú Rua`,
       `An Teach Dóite`,
-      `Inis Bó Finne`,
+      `Poll an Phúca`,
       `Inis Meáin `
-    ]
+    ],
+    [246, 215, 122, 168, 341, 111],
+    //top
+    [217, 233, 236, 198, 146, 299]
   ],
   kerry: [
     `Co. Ċiarraí`,
     [
       `Na Cruaċa Duḃa`,
       `An tSnaidhm`,
-      `An Daingean `,
-      `Neidín`,
+      `An Daingean`,
+      `Gleann na bPúcaí`,
       `Cathair Saiḋḃín`,
       `Sliabh Mis`
-    ]
+    ],
+    [235, 123, 17, 111, 9, 234],
+    //top
+    [268, 374, 159, 159, 118, 110]
   ],
   kildare: [
     `Co. Ċill Dara`,
@@ -276,7 +300,10 @@ let countyDetails = {
       `Fioḋ Alúine`,
       `Cairbre`,
       `Na Solláin`
-    ]
+    ],
+    [329, 384, 368, 254, 239, 372],
+    //top
+    [268, 374, 159, 159, 118, 110]
   ],
   kilkenny: [
     `Co. Ċill Ċainniġ`,
@@ -287,7 +314,10 @@ let countyDetails = {
       `Bearna na Gaoiṫe`,
       `Sliaḃ Rua`,
       `Baile an Ṗoill`
-    ]
+    ],
+    [157, 272, 274, 207, 274, 215],
+    //top
+    [228, 295, 334, 300, 397, 361]
   ],
   laois: [
     `Co. Laoise`,
@@ -298,7 +328,10 @@ let countyDetails = {
       `Buiríos Mór Osraí`,
       `Darú`,
       `An Baile Fionn`
-    ]
+    ],
+    [249, 109, 161, 275, 265, 298],
+    //top
+    [316, 285, 119, 255, 121, 84]
   ],
   leitrim: [
     `Co. Liatroma`,
@@ -309,7 +342,10 @@ let countyDetails = {
       `Dromad`,
       `Droim Seanḃó`,
       `Garḃach`
-    ]
+    ],
+    [182, 302, 310, 272, 222, 202],
+    //top
+    [47, 215, 278, 347, 208, 126]
   ],
   limerick: [
     `Co. Luimnigh`,
@@ -319,8 +355,11 @@ let countyDetails = {
       `Áth na bḞuinseog`,
       `Caisleán Uí Ċonaill`,
       `An Ḟeoṫanaċ`,
-      `Lios na Graí`
-    ]
+      `Poll an Phúca`
+    ],
+    [220, 198, 98, 376, 151, 284],
+    //top
+    [178, 64, 247, 19, 268, 46]
   ],
   longford: [
     `Co. An LongFoirt`,
@@ -331,18 +370,24 @@ let countyDetails = {
       `An Ċarraig Ḃuí`,
       `Gránard`,
       `Meathais Troim`
-    ]
+    ],
+    [232, 197, 166, 306, 393, 300],
+    //top
+    [231, 154, 245, 232, 154, 171]
   ],
   louth: [
     `Co.Lú`,
     [
       `Dún Dealgan`,
       `Ceann Ċloċair`,
-      `Dún Léire`,
+      `Poll an Phúca`,
       `An Grianfort`,
       `Baile Átha Ḟirdia`,
       `Baile an Ġearlánaigh`
-    ]
+    ],
+    [287, 450, 254, 370, 187, 323],
+    //top
+    [87, 53, 254, 137, 286, 236]
   ],
   mayo: [
     `Co. Mhaigh Eo`,
@@ -353,7 +398,10 @@ let countyDetails = {
       `Baile Ui Ḟiacáin`,
       `Lios an tSaṁaiḋ`,
       `Cill Ala`
-    ]
+    ],
+    [251, 196, 235, 155, 366, 380],
+    //top
+    [335, 341, 172, 196, 350, 108]
   ],
   meath: [
     `Co. Na Mí`,
@@ -364,7 +412,10 @@ let countyDetails = {
       `Cill Ḃríde`,
       `Ráth Ċairn`,
       `Buaile na Bréachṁaí `
-    ]
+    ],
+    [298, 274, 349, 206, 172, 122],
+    //top
+    [240, 187, 356, 224, 203, 387]
   ],
   monaghan: [
     `Co. Ṁuineaċáin`,
@@ -375,7 +426,10 @@ let countyDetails = {
       `Scairbh na gCaorach`,
       `Einistir Ḃuithe`,
       `Crícheán Rua`
-    ]
+    ],
+    [383, 132, 191, 249, 234, 380],
+    //top
+    [402, 281, 73, 17, 148, 200]
   ],
   offaly: [
     `Co. Uíḃ Ḟailí`,
@@ -386,7 +440,10 @@ let countyDetails = {
       `Cionn Eitigh`,
       `Éadan Doire`,
       `Ráth Iomġáin`
-    ]
+    ],
+    [133, 143, 141, 222, 442, 432],
+    //top
+    [88, 215, 284, 253, 76, 154]
   ],
   roscommon: [
     `Co. Ros Comáin`,
@@ -397,7 +454,10 @@ let countyDetails = {
       `Baile an Tobair`,
       `Loch Bó Dearge`,
       `Loch Bó Finne`
-    ]
+    ],
+    [328, 316, 164, 240, 353, 357],
+    //top
+    [354, 211, 215, 191, 212, 124]
   ],
   sligo: [
     `Co. Shligigh`,
@@ -408,7 +468,10 @@ let countyDetails = {
       `Béal Átha na gCarraigíní`,
       `An Ċéis`,
       `Tobar an Ċoire`
-    ]
+    ],
+    [261, 295, 204, 306, 375, 195],
+    //top
+    [98, 190, 166, 110, 315, 324]
   ],
   tipperary: [
     `Co. Ṫiobraid Árann`,
@@ -419,7 +482,10 @@ let countyDetails = {
       `Faiċe Ró`,
       `Sliabh na mBan`,
       `Cluain Meala`
-    ]
+    ],
+    [293, 332, 363, 358, 282, 259],
+    //top
+    [102, 263, 309, 285, 307, 342]
   ],
   tyrone: [
     `Co. Ṫír Eoghain`,
@@ -430,7 +496,10 @@ let countyDetails = {
       `Caisleán na Deirge`,
       `Baile Mhic Gofraidh`,
       `An Caisleán Glas`
-    ]
+    ],
+    [211, 386, 426, 157, 268, 302],
+    //top
+    [221, 161, 306, 113, 103, 175]
   ],
   waterford: [
     `Co. Ṗort Láirge`,
@@ -441,7 +510,10 @@ let countyDetails = {
       `Tullach an Iarainn`,
       `Cluain Ḟia`,
       `Sléiḃte an Ċomaraigh`
-    ]
+    ],
+    [251, 103, 406, 85, 185, 261],
+    //top
+    [257, 188, 169, 266, 357, 138]
   ],
   westmeath: [
     `Co. Na hIarṁí`,
@@ -452,7 +524,10 @@ let countyDetails = {
       `An Teanga`,
       `Cill Ḃeagáin`,
       `An Muileann gCearr`
-    ]
+    ],
+    [467, 393, 74, 14, 223, 374],
+    //top
+    [166, 48, 221, 178, 314, 252]
   ],
   wexford: [
     `Co. Loch Garman`,
@@ -460,10 +535,13 @@ let countyDetails = {
       `An Abhainn Dubh`,
       `Coill an Iarainn`,
       `Dún Ċormaic`,
-      `Baile an Droichid`,
+      `Poll an Phúca`,
       `Maolán na nGaḃar`,
       `Inis Córṫaidh`
-    ]
+    ],
+    [118, 393, 301, 236, 288, 345],
+    //top
+    [308, 17, 352, 152, 181, 123]
   ],
   wicklow: [
     `Co. Ċill Ṁantáin`,
